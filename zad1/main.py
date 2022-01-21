@@ -5,7 +5,7 @@ import time
 
 class MyTestCase(unittest.TestCase):
     def test_title(self):
-        driver = webdriver.Chrome(executable_path='D:/uczelnia/II rok/semestr 3/testowanie_automatyczne/lab15/chromedriver')
+        driver = webdriver.Chrome(executable_path='D:/uczelnia/II rok/semestr 3/testowanie_automatyczne/lab15/laboratorium-15-Justyna7/zad1/chromedriver')
         driver.implicitly_wait(10)
         driver.get("https://duckduckgo.com/")
         # driver.find_element()
